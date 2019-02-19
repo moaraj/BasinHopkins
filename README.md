@@ -1,6 +1,6 @@
 # Basin Hopping Guide
 
-| ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/Cluster-1.gif) | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/Opt.png) | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/Cluster-opt.gif) |
+| ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/image21.gif) | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/Opt.png) | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/image20.gif) |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------|
 
 1. Installation
