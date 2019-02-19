@@ -1,12 +1,16 @@
-#Basin Hopping Guide
-#Installation
-#Input file
-#What is needed for a job
-#Analysis
-#The restart function
-#Submitting a job
+# Basin Hopping Guide
 
-#Installation
+| ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/Cluster-1.gif) | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/Opt.png) | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/Cluster-opt.gif) |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------|
+
+1. Installation
+2.  Input file
+3. What is needed for a job
+4. Analysis
+5. The restart function
+6. Submitting a job
+
+# Installation
 Installing Basin hopping on your sharcnet account is very simple.
 1.	Log into sharcnet and move the latest copy of Basing hoping into your scratch directory. 
  
@@ -15,7 +19,7 @@ Installing Basin hopping on your sharcnet account is very simple.
  
 Basin hopping is now installed on your sharcnet account and ready to run. 
 
-#The input file
+# The input file
 
 The file named Bh_ipf.txt is a template input file. Here is what needs to be filled out
 
@@ -36,7 +40,7 @@ The file named Bh_ipf.txt is a template input file. Here is what needs to be fil
 15. connectivity: this is everything after the geometry in the gjf and must start on this line.
 That is everything that is needed with in the input file.
 
-#What do you need for each and every job?
+# What do you need for each and every job?
 You need three things.
 1.	Your intal .gjf file ending _1.gjf
 2.	A unique input file
@@ -48,15 +52,15 @@ def bh():
 	Basin_hop(‘/scratch/username/yourinputfile’, ‘folder to move all files’)
 Bh()
 
-#Analysis 
+# Analysis 
 At the end of every job the data.txt file and data_unique.txt files are produced and these contain the energy for analysis. The .gjf and .log files will be moved to the folder specified in the .py file, and put into subdirectories Unique and Doubles. 
 
-#The restart function
+# The restart function
 The restart function has many more uses than just restarting wall timed jobs.
 If a job finishes and you want to add more steps, simply move all the .gjf and .log files back to the scratch folder and change restart: no-end to restart: yes-end and change the steps to the desired number. This will also require the .sav file to be in the scratch as well.
 Another thing is that you can change the analysis varriables, put restart to yes, move all the .gjf and .log files back to the scratch adjust the variables in the input file and resubmit them. 
 
-#Submitting a job
+# Submitting a job
 The command is 
 sqsub -q serial --mpp=4g -r10h -o your_inputfile.txt python you_submited_file.py
 Comment questions concerns? Email me moaraj.hasan@gmail.com
