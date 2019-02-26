@@ -1,3 +1,9 @@
+```diff
+- Note: Unpublished work. 
+- Older, fully functional version of the package made public for applications. 
+- Please do not disseminate
+```
+
 # Basin Hopping Guide
 
 | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/image21.gif) | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/Opt.png) | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/image20.gif) |
