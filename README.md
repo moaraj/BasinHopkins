@@ -9,12 +9,13 @@
 | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/image21.gif) | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/Opt.png) | ![](https://github.com/moaraj/BasinHopkins/blob/master/docs/image20.gif) |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------------------------------|
 
-1. Installation
-2.  Input file
-3. What is needed for a job
-4. Analysis
-5. The restart function
-6. Submitting a job
+## Table of Contents
+* [Installation](#installation)
+* [The input file](#the-input-file)
+* [What is needed for a job](#what-do-you-need-for-each-and-every-job)
+* [Analysis](#analysis)
+* [The restart function](#the-restart-function)
+* [Submitting a job](#submitting-a-job)
 
 # Installation
 Installing Basin hopping on your sharcnet account is very simple.
